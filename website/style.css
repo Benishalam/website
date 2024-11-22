@@ -1,0 +1,132 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    color:dark pink;
+    background: url('picturee.jpg')no-repeat center center fixed ;
+    image-orientation: display;
+    background-size:cover;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+  }
+  
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background: rgba(0, 0, 0, 0.7);
+  }
+  
+  .navbar .logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: orange;
+  }
+  
+  .navbar nav a {
+    margin: 0 10px;
+    text-decoration: none;
+    color: orange;
+    font-size: 16px;
+  }
+  
+  .navbar .search input {
+    padding: 5px;
+    border: none;
+    border-radius: 5px;
+  }
+  
+  .navbar .search button {
+    background: orange;
+    border: none;
+    color: #fff;
+    padding: 5px 10px;
+    margin-left: 5px;
+    cursor: pointer;
+  }
+  
+  main {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px;
+  }
+  
+  .content h1 {
+    font-size: 48px;
+  }
+  
+  .content h1 span {
+    color: orange;
+  }
+  
+  .content p {
+    margin: 20px 0;
+    line-height: 1.6;
+  }
+  
+  .content .join {
+    background: orange;
+    border: none;
+    padding: 10px 20px;
+    color: #fff;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  .login-box {
+    background: rgba(0, 0, 0, 0.8);
+    padding: 30px;
+    border-radius: 10px;
+    width: 300px;
+  }
+  
+  .login-box h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: orange;
+  }
+  
+  .login-box input {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #fff;
+    border-radius: 5px;
+    background: transparent;
+    color: #fff;
+  }
+  
+  .login-box button {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    background: orange;
+    color: #fff;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  .login-box p {
+    text-align: center;
+  }
+  
+  .login-box a {
+    color: orange;
+    text-decoration: none;
+  }
+  
+  .social-login a {
+    margin: 5px;
+    color: #fff;
+    font-size: 20px;
+    text-decoration: none;
+  }
